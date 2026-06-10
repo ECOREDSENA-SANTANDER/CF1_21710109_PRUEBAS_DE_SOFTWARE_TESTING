@@ -30,477 +30,536 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cómo se definen las pruebas de <i>software</i> dentro del aseguramiento de la calidad?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto:
+                'Como una actividad que se realiza únicamente después de entregar el <i>software</i> al usuario final.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+                'Como un proceso técnico e investigativo que proporciona información objetiva sobre la calidad del producto de <i>software</i>.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto:
+                'Como una tarea exclusiva de programación orientada a corregir código fuente.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto:
+                'Como una estrategia para reemplazar la documentación técnica del proyecto.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Cuál es la diferencia principal entre aseguramiento de la calidad y pruebas de <i>software</i>?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
+              texto:
+                'El aseguramiento de la calidad busca prevenir defectos en los procesos, mientras que las pruebas buscan detectar defectos en el producto construido.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto:
+                'El aseguramiento de la calidad solo se aplica cuando el <i>software</i> ya está instalado.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
-              esCorrecta: true,
+              texto:
+                'Las pruebas de <i>software</i> reemplazan por completo la planeación del proyecto.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto:
+                'Ambos conceptos significan exactamente lo mismo y no tienen diferencias.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto:
+            '¿Cuál de las siguientes acciones corresponde a un objetivo principal de las pruebas de <i>software</i>?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto:
+                'Eliminar la necesidad de revisar los requisitos del cliente.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+                'Evitar que los usuarios finales participen en la validación del sistema.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
-              esCorrecta: false,
+              texto:
+                'Identificar defectos, generar confianza y aportar información para la toma de decisiones.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto:
+                'Construir la interfaz gráfica completa sin intervención del equipo técnico.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Qué implica delimitar el alcance de las pruebas dentro de un proyecto de <i>software</i>?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto:
+                'Probar todos los módulos sin considerar tiempo, presupuesto o prioridad.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto:
+                'Ejecutar pruebas únicamente sobre la interfaz visual del sistema.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
+              texto: 'Eliminar del plan los módulos críticos del producto.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
+              texto:
+                'Definir qué partes del sistema serán evaluadas y cuáles quedarán fuera de la prueba.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto:
+            '¿Qué significa el principio que indica que las pruebas demuestran la presencia de defectos, no su ausencia?',
+          imagen: '@/assets/actividad/imagen05.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
+                'Que un sistema sin errores encontrados siempre es perfecto.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto:
+                'Que las pruebas no aportan información útil al equipo de desarrollo.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
-              esCorrecta: false,
+              texto:
+                'Que las pruebas reducen la probabilidad de fallos, pero no garantizan que el <i>software</i> esté libre de defectos.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Que solo se deben probar los módulos menos importantes.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Por qué se afirma que las pruebas exhaustivas son imposibles en la mayoría de los sistemas?',
+          imagen: '@/assets/actividad/imagen6.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto:
+                'Porque no es viable probar todas las combinaciones posibles de datos, entradas y condiciones.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto:
+                'Porque los usuarios finales no deben participar en los procesos de validación.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto:
+                'Porque los sistemas informáticos no requieren análisis de riesgos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto:
+                'Porque las pruebas solo se aplican a documentos impresos.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Qué propone el principio de pruebas tempranas o Shift-Left Testing?',
+          imagen: '@/assets/actividad/imagen7.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto:
+                'Esperar a que el sistema esté en producción para iniciar las pruebas.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto: 'Probar únicamente cuando el cliente reporte errores.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto:
+                'Iniciar las actividades de prueba desde etapas tempranas, como la revisión de requisitos.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto:
+                'Repetir siempre los mismos casos de prueba sin modificarlos.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Qué describe la paradoja del pesticida en pruebas de <i>software</i>?',
+          imagen: '@/assets/actividad/imagen8.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Que todos los defectos se concentran únicamente en la documentación.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Que las pruebas automatizadas eliminan toda posibilidad de error.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Que las pruebas funcionales no deben repetirse en ningún proyecto.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto:
+                'Que repetir siempre las mismas pruebas puede hacer que dejen de encontrarse nuevos defectos.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué relación existe entre el ciclo de vida del desarrollo de <i>software</i> y los niveles de prueba?',
+          imagen: '@/assets/actividad/imagen9.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto:
+                'Los niveles de prueba se integran con las fases del desarrollo para verificar progresivamente la calidad del producto.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto:
+                'El ciclo de vida del <i>software</i> solo se aplica a proyectos sin documentación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Los niveles de prueba se ejecutan sin relación con las etapas del desarrollo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'El ciclo de vida impide realizar pruebas de aceptación del usuario.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: '¿Qué caracteriza a las pruebas unitarias?',
+          imagen: '@/assets/actividad/imagen10.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Evalúan la aceptación del sistema por parte del cliente final.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Verifican de manera aislada una función, método, clase o fragmento específico de código.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Se enfocan exclusivamente en la usabilidad de la interfaz.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Se realizan únicamente después de liberar el sistema en producción.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Cuál es el propósito principal de las pruebas de integración?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Validar que los usuarios acepten comercialmente el producto.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Reemplazar las pruebas unitarias realizadas por el desarrollador.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Medir únicamente la velocidad de carga de una página web.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Evaluar la comunicación, interfaces y flujo de datos entre módulos o componentes.',
               esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: '¿Qué evalúan las pruebas del sistema?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Un único método de código fuente sin conexión con otros módulos.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'El <i>software</i> completo y ensamblado para verificar su cumplimiento funcional y no funcional.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Solo los documentos administrativos del proyecto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'La satisfacción del usuario antes de construir el <i>software</i>.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Cuál es el propósito de las pruebas de aceptación del usuario o UAT?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Buscar errores de sintaxis en el código fuente.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Validar que el sistema satisface las necesidades del negocio antes de su implementación.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Eliminar la participación del cliente en el proceso de validación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Ejecutar únicamente pruebas de rendimiento en servidores.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+          texto: '¿Qué evalúan las pruebas funcionales?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto:
+                'El comportamiento del sistema frente a los requisitos definidos por el cliente.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto:
+                'La cantidad de servidores físicos disponibles en la organización.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La estética del código fuente sin ejecutar el sistema.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El presupuesto general del proyecto de formación.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+          texto: '¿Qué aspecto corresponde a una prueba no funcional?',
+          imagen: '@/assets/actividad/imagen05.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Verificar si un usuario puede iniciar sesión con credenciales válidas.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Comprobar si el sistema muestra el mensaje esperado al guardar un formulario.',
               esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Confirmar únicamente que el nombre del proyecto esté escrito correctamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Evaluar rendimiento, seguridad, usabilidad o accesibilidad del sistema.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        'Ha superado la actividad y demuestra sólidos conocimientos sobre los fundamentos, niveles, tipos, estándares y diseño del plan de pruebas de <i>software.</i>',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
-        },
-        {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
-        },
-      ],
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }

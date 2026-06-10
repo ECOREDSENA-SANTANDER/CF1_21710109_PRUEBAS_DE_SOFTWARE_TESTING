@@ -78,10 +78,13 @@ figcaption
     color: $color-acento-botones !important;
 .boton *, .boton--sm *, .barra-avance__boton--regresar span 
   color: $color-sistema-texto !important  
+.titulo-principal.color-acento-contenido .titulo-principal__numero span 
+  color: $color-sistema-texto !important  
+
 .banner-principal
   @media (max-width: $bp-max-md)
     .tarjeta
-      background-image: url('../assets/curso/bg/fondo-banner-principal-movil.png') !important;
+      background-image: url('../assets/curso/temas/bg/fondo-banner-principal-movil.png') !important;
       background-repeat: no-repeat 
       background-size: 100% 100%
       background-position: cover
@@ -92,7 +95,7 @@ figcaption
  
   @media (min-width: 768px) and (max-width: 1024px)
     .tarjeta
-      background-image: url('../assets/curso/bg/fondo-banner-principal-tablet.png') !important
+      background-image: url('../assets/curso/temas/bg/fondo-banner-principal-tablet.png') !important
       background-repeat: no-repeat 
       background-size: 100% 100%
       background-position: cover
@@ -101,7 +104,7 @@ figcaption
     h1, p
       color: $white
 .banner-interno__fondo    
-  background-image: url("../assets/curso/bg/banner_interno1.png") !important;
+  background-image: url("../assets/curso/temas/bg/banner_interno.png") !important
 
 /**************************************************************/
 /***CUSTOM STYLES***/
@@ -120,12 +123,107 @@ figcaption
   &-1
     background-color: $color-primario
 
+.bg1 
+  background-color: #FFE8B8
+.bg2
+  background-color: #F3E5F8
+.bg3
+  background-color: #6101D8
+  border-radius: 15px
+.bg4
+  background-color: #EFE5FB
+.bg5
+  background-image: url('../assets/curso/temas/t1/tarjeta.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  @media screen and (max-width: 992px) 
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    background-size: cover 
+.acordion__accion__btn--a 
+  background-color: #8AE7F9 !important
+.acordion .tarjeta--azul
+  background-color: #C099EF !important
+.acordion .tarjeta.tarjeta--azul.acordion__activo
+  background-color: #F3FDFF !important
 
+.izq
+  margin-left: -0.8rem
 
+.fa-code
+  content: url('../assets/curso/temas/t1/code.svg')
+  align-self: flex-start !important
 
+.w-card-icon
+  width: min-content
+  z-index: 1
+.w-card-text
+  position: relative
+  padding-left: 50px
+  padding-right: 50px
+  left: -30px
+  top: 8px
 
-
-
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5
+    color: $color-sistema-texto !important  
+  p
+    margin-bottom: 0
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #FFE8B8
+  @media (max-width: 1000px)
+    padding-right: 2rem
+.crd--avatarHorizontal2
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5
+    color: $color-sistema-texto !important  
+  p
+    margin-bottom: 0
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #F3E5F8
+  @media (max-width: 1000px)
+    padding-right: 2rem
+.crd--first
+  &::before
+    background-color: #EFE5FB !important
+.crd--first
+  &::before
+    border-top-left-radius: 30px
+.crd--last
+  &::before
+    border-bottom-left-radius: 30px
+.crd--last
+  &::before
+    background-color: #FFE8B8 !important
+.titulo-segundo:after 
+  border-left-color: #FEC64F
 /**************************************************************/
 /*Media Queries*/  
 /**************************************************************/
