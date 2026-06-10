@@ -3,17 +3,46 @@
   &-1
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 68%
-    left: -10%
-    width: 20%
+    top: 25%
+    left: 75%
+    width: 10%
   &-2
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 30%
+    top: 80%
     right: 10%
-    width: 20%
+    width: 10%
+  &-3
+    animation: vibrar 0.2s infinite
+    position: absolute
+    top: 20%
+    right: 100%
+    width: 15%
+  &-4
+    animation: floatHorizontal 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 75%
+    right: 85%
+    width: 10%
 
+@keyframes vibrar
+  0%
+    transform: translateX(0)
+  25%
+    transform: translateX(-2px)
+  50%
+    transform: translateX(2px)
+  75%
+    transform: translateX(-2px)
+  100%
+    transform: translateX(0)
 
+@keyframes floatHorizontal
+  from
+    transform: translateX(-10px)
+
+  to
+    transform: translateX(10px)
 @keyframes float1
   0%
     transform: translateY(20px)
@@ -38,15 +67,41 @@
 .banner-interno__titulo h1, .banner-interno__titulo h2, 
 .banner-interno__titulo h3, .banner-interno__titulo h4, 
 .banner-interno__titulo h5, .banner-interno__titulo h6
-  color: $color-sistema-texto !important  
+  color: $white !important
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: $white !important
 figcaption 
     font-weight: normal !important
-
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
+  color: #ffff !important
 .banner-interno__titulo__icono i
     color: $color-acento-botones !important;
-
+.boton *, .boton--sm *, .barra-avance__boton--regresar span 
+  color: $color-sistema-texto !important  
+.banner-principal
+  @media (max-width: $bp-max-md)
+    .tarjeta
+      background-image: url('../assets/curso/bg/fondo-banner-principal-movil.png') !important;
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+    &__info
+      padding-top: 14% !important 
+    h1, p
+      color: $white
+ 
+  @media (min-width: 768px) and (max-width: 1024px)
+    .tarjeta
+      background-image: url('../assets/curso/bg/fondo-banner-principal-tablet.png') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+    &__info
+      padding-top: 8% !important 
+    h1, p
+      color: $white
+.banner-interno__fondo    
+  background-image: url("../assets/curso/bg/banner_interno1.png") !important;
 
 /**************************************************************/
 /***CUSTOM STYLES***/

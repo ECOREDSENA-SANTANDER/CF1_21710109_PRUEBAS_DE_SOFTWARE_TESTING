@@ -1,17 +1,26 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.svg',
-    fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
+    Name: 'Fundamentos del plan de pruebas de <i>software</i>',
+    Description:
+      'Este componente aborda los conceptos, principios, niveles y tipos de pruebas de <i>software</i>, así como los marcos de referencia y estándares aplicables. Orienta al aprendiz en la definición del procedimiento técnico y en la construcción del plan de pruebas, incluyendo alcance, recursos, escenarios, nomenclaturas y casos de prueba.',
+    imagenBannerPrincipal: '@/assets/curso/bg/img01.png',
+    fondoBannerPrincipal: '@/assets/curso/bg/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.svg',
+        imagen: '@/assets/curso/bg/banner-principal-decorativo-1.svg',
       },
       {
         clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.svg',
+        imagen: '@/assets/curso/bg/banner-principal-decorativo-2.svg',
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: '@/assets/curso/bg/banner-principal-decorativo-3.svg',
+      },
+      {
+        clases: ['banner-principal-decorativo-4', 'd-none', 'd-lg-block'],
+        imagen: '@/assets/curso/bg/banner-principal-decorativo-4.svg',
       },
     ],
   },
@@ -31,13 +40,20 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Fundamentos de las pruebas de <i>software</i>',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo:
+              'Concepto, objetivos y alcance de las pruebas de <i>software</i>',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo:
+              'Principios, importancia e impacto del <i>software testing</i>',
+            hash: 't_1_2',
           },
         ],
       },
