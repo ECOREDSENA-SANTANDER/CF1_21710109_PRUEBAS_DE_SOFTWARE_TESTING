@@ -70,42 +70,42 @@
             img.w-card-icon(src="@/assets/curso/temas/t1/ico.svg")
             h3.bg3.py-2.w-card-text.text-white Atributos evaluados en las pruebas no funcionales 
 
-    PasosA.color-primario.mb-5(tipo="n")
-      .row
-        .col-md-6.mb-4.mb-md-0
-          h3 Lorem ipsum dolor sit amet.
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        .col-md-6
+    PasosA.color-acento-contenido.mb-5(tipo="n")
+      .row.justify-content-center
+        .col-lg-8.mb-4.mb-md-0
+          h4 Rendimiento y carga
+          p Evalúa cómo se comporta el sistema bajo condiciones de alta demanda. Por ejemplo, en un portal educativo con inscripciones nacionales, una prueba de carga puede simular múltiples usuarios accediendo al mismo tiempo para comprobar que los servidores respondan adecuadamente.
+        .col-lg-3.col-lg-3.mb-3.col-md-6
           figure
-            img(src='@/assets/curso/temas/t3/pas1.png', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
+            img(src='@/assets/curso/temas/t3/pas1.png', alt='')
+            
 
-      .row
-        .col-md-6.mb-4.mb-md-0
+      .row.justify-content-center
+        .col-lg-3.mb-3.col-md-6
           figure
             img(src='@/assets/curso/temas/t3/pas2.png', alt='Texto que describa la imagen')
-            figcaption Leyenda de la Imagen
-        .col-md-6
-          h3 Nullam vulputate mauris eros, ut.
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.          
+        .col-lg-8.mb-4.mb-md-0
+          h4.text-izq Seguridad
+          p.text-izq Verifica que los datos confidenciales, como notas, información personal o certificados, estén protegidos contra accesos no autorizados.
 
-      .row
-        .col-md-6.mb-4.mb-md-0
-          h3 Duis laoreet est non ligula.
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.      
-        .col-md-6
+      .row.justify-content-center
+        .col-lg-8.mb-4.mb-md-0
+          h4 Usabilidad
+          p Analiza la facilidad con la que las personas interactúan con la interfaz del #[em software], incluyendo usuarios con discapacidad visual, auditiva, cognitiva o motora.
+        .col-lg-3.mb-3.col-md-6
           figure
             img(src='@/assets/curso/temas/t3/pas3.png', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
 
-      .row
-        .col-md-6.mb-4.mb-md-0
-          h3 Duis laoreet est non ligula.
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.      
-        .col-md-6
+
+      .row.justify-content-center
+        .col-lg-3.mb-3.col-md-6
           figure
             img(src='@/assets/curso/temas/t3/pas4.png', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
+        .col-lg-8.mb-4.mb-md-0
+          h4.text-izq Accesibilidad
+          p.text-izq Permite revisar si el sistema puede ser utilizado por la mayor cantidad posible de personas, considerando lectura con tecnologías de apoyo, navegación por teclado, contraste suficiente, textos alternativos y claridad en los mensajes.
+        
+        
 
 
     separador(data-aos="zoom-in-left")
@@ -116,7 +116,7 @@
         :style="{'background-image': `url(${require_src('@/assets/curso/temas/t2/img07.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La industria del desarrollo de software clasifica las pruebas en dos grandes paradigmas metodológicos: pruebas estáticas y pruebas dinámicas. Esta clasificación permite diferenciar si la evaluación requiere ejecutar el código fuente o si puede realizarse mediante el análisis de documentos, modelos, diseños o código sin poner en funcionamiento el sistema.
+        p.mb-0 La industria del desarrollo de #[em software] clasifica las pruebas en dos grandes paradigmas metodológicos: pruebas estáticas y pruebas dinámicas. Esta clasificación permite diferenciar si la evaluación requiere ejecutar el código fuente o si puede realizarse mediante el análisis de documentos, modelos, diseños o código sin poner en funcionamiento el sistema.
           br
     .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
       .col-lg-8

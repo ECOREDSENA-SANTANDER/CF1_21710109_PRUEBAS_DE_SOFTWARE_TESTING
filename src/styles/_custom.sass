@@ -154,6 +154,8 @@ figcaption
     background-size: cover 
 .bg8
   background-color: #D2E1F1
+.bg9
+  background-color: #FFF9ED
 .acordion__accion__btn--a 
   background-color: #8AE7F9 !important
 .acordion .tarjeta--azul
@@ -263,7 +265,8 @@ figcaption
   .mb-cus
     margin-bottom: 2em  !important  
 
-  
+.text-izq
+  text-align: left !important
 
 //// MOBILE 576--------------------------------------
 @media screen and (max-width: $bp-min-sm)
@@ -273,4 +276,121 @@ figcaption
 .cajon.color-secundario 
   background-color: #F3E5F8 
 
- 
+.tabs-a__tab 
+  background-color: #6101D8
+  color: white
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//  Codigo de las tarjetas que se deslizan hacia arriba 
+.cont_5_1, .cont_5_1 *
+  position: relative
+
+.cont_5_1:before
+  content: ''
+  position: absolute
+  width: 125%
+  height: 70%
+  top: 15%
+  bottom: 15%
+  left: -15%
+  background-size: 100% 100%
+
+.crd_hover_txt
+  position: relative
+  padding: 0 !important
+  overflow: hidden !important
+  border-radius: 0px
+
+.crd_hover_txt .crd_hover_txt--body
+  position: absolute
+  width: 100%
+  bottom: 0
+  padding: 1rem 1.2rem
+  transition: all .5s ease-in-out
+  transform: translateY(calc(100% - 5.2rem))
+  font-weight: 400 !important
+  background: transparent
+
+/* SOLO FILA TITULO */
+.crd_hover_txt .crd_hover_txt--body > div:first-child
+  display: flex !important
+  align-items: center !important
+  flex-wrap: nowrap !important
+  gap: 12px
+  width: 100%
+
+.crd_hover_txt:hover .crd_hover_txt--body
+  transform: translateY(0)
+  background-color: #EFE5FB !important
+
+  .rot
+    transform: rotate(180deg)
+
+.crd_hover_txt:hover .crd_hover_txt--body *
+  color: black !important
+
+/* OCULTAR PÁRRAFO CUANDO ESTÁ CERRADO */
+.icono-circulo
+  width: 32px
+  height: 32px
+  border-radius: 50%
+  background-color: #6101D8
+  display: flex
+  align-items: center
+  justify-content: center
+  flex-shrink: 0
+
+.flecha
+  width: 10px
+  height: 10px
+  border-left: 4px solid #8AE7F9
+  border-top: 4px solid #8AE7F9
+  transform: rotate(45deg)
+  transition: transform 0.4s ease
+
+.cursor-pointer.crd_hover_txt
+  cursor: pointer
+
+.crd_hover_txt
+  position: relative
+  padding: 0 !important
+  overflow: hidden !important
+
+  &:hover
+    .crd_hover_txt--body
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+      transform: translateY(0)
+
+    .flecha
+      transform: rotate(225deg)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1rem
+    bottom: 0
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc(100% - 3.85rem))
+    background-color: #8AE7F9
+    border-radius: 20px
+
+  @media (min-width:1200px) and (max-width:1400px)
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
