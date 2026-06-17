@@ -3,7 +3,7 @@ export default {
     Name: 'Fundamentos del plan de pruebas de <i>software</i>',
     Description:
       'Este componente aborda los conceptos, principios, niveles y tipos de pruebas de <i>software</i>, así como los marcos de referencia y estándares aplicables. Orienta al aprendiz en la definición del procedimiento técnico y en la construcción del plan de pruebas, incluyendo alcance, recursos, escenarios, nomenclaturas y casos de prueba.',
-    imagenBannerPrincipal: '@/assets/curso/bg/img01.png',
+    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/bg/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
       {
@@ -301,7 +301,7 @@ export default {
         },
         {
           nombre: 'Edison Eduardo Mantilla Cuadros',
-          cargo: 'Responsable de línea de producción',
+          cargo: 'Profesional G06. Responsable de línea de producción',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -310,8 +310,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
+          nombre: 'Carlos Andres Bonza Reyes',
+          cargo: 'Experto temático TIC',
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
+        {
           nombre: 'Angelica Varon Quintero',
-          cargo: 'Experta temática',
+          cargo: 'Evaluadora instruccional ',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],

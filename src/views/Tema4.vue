@@ -173,9 +173,7 @@
                   span.flecha
                 | Trazabilidad del fallo
               p.mb-0 Facilita reproducir errores en el entorno y versión correspondientes, evitando confusiones durante la corrección.
-
-
-
+              
 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-5.mb-3.col-9
