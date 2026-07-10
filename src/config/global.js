@@ -4,23 +4,23 @@ export default {
     Description:
       'Este componente aborda los conceptos, principios, niveles y tipos de pruebas de <i>software</i>, así como los marcos de referencia y estándares aplicables. Orienta al aprendiz en la definición del procedimiento técnico y en la construcción del plan de pruebas, incluyendo alcance, recursos, escenarios, nomenclaturas y casos de prueba.',
     imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
-    fondoBannerPrincipal: '@/assets/curso/bg/fondo-banner-principal.png',
+    fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/bg/banner-principal-decorativo-1.svg',
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.svg',
       },
       {
         clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/bg/banner-principal-decorativo-2.svg',
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.svg',
       },
       {
         clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/bg/banner-principal-decorativo-3.svg',
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-3.svg',
       },
       {
         clases: ['banner-principal-decorativo-4', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/bg/banner-principal-decorativo-4.svg',
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-4.svg',
       },
     ],
   },
@@ -296,12 +296,12 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Responsable Ecosistema de Recursos Educativos Digitales (RED)',
+            'Profesional G06. Responsable Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Edison Eduardo Mantilla Cuadros',
-          cargo: 'Profesional G06. Responsable de línea de producción',
+          cargo: 'Responsable de línea de producción',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],

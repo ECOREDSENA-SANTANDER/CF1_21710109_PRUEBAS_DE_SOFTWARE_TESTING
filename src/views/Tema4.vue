@@ -133,7 +133,7 @@
                 span.icono-circulo.me-3
                   span.flecha
                 | Documentación técnica
-              p.mb-0 Permite demostrar qué se probó, cómo se probó y qué resultados se obtuvieron durante el proceso de testing. 
+              p.mb-0 Permite demostrar qué se probó, cómo se probó y qué resultados se obtuvieron durante el proceso de #[em testing]. 
         
         .col-xl-3.col-md-6.col-11.mb-4.mb-xl-0
           .crd_hover_txt(@mouseover="mostrarIndicador = false")

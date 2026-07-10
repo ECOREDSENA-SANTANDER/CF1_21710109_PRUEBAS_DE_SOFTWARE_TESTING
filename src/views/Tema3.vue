@@ -113,14 +113,14 @@
       h2 3.2  Pruebas de revisión, estáticas y dinámicas
     .bloque-texto-g.bg2.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require_src('@/assets/curso/temas/t2/img07.png')})`}"
+        :style="{'background-image': `url(${require_src('@/assets/curso/temas/t3/img10.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 La industria del desarrollo de #[em software] clasifica las pruebas en dos grandes paradigmas metodológicos: pruebas estáticas y pruebas dinámicas. Esta clasificación permite diferenciar si la evaluación requiere ejecutar el código fuente o si puede realizarse mediante el análisis de documentos, modelos, diseños o código sin poner en funcionamiento el sistema.
           br
     .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
       .col-lg-8
-        p.bg4.p-4 Las pruebas dinámicas requieren la ejecución del código fuente; es decir, el #[em software] debe estar compilado y en funcionamiento para que el probador interactúe con él. Las pruebas funcionales y no funcionales mencionadas anteriormente son, en su mayoría, de naturaleza dinámica, porque permiten revisar el comportamiento del sistema durante su operación.
+        p.bg9.p-4 Las pruebas dinámicas requieren la ejecución del código fuente; es decir, el #[em software] debe estar compilado y en funcionamiento para que el probador interactúe con él. Las pruebas funcionales y no funcionales mencionadas anteriormente son, en su mayoría, de naturaleza dinámica, porque permiten revisar el comportamiento del sistema durante su operación.
         p Por otro lado, las pruebas estáticas se realizan sin ejecutar el código. Su objetivo es examinar la documentación, los modelos de diseño o el código fuente para encontrar anomalías de forma temprana. Una de las técnicas más valiosas dentro de las pruebas estáticas son las revisiones.
         p Las revisiones consisten en reuniones estructuradas donde el equipo de desarrollo, analistas y clientes examinan documentos como el documento de requisitos o el diseño de la base de datos. Desde una perspectiva pedagógica, las revisiones funcionan como un ejercicio de aprendizaje colaborativo, porque permiten detectar ambigüedades, contradicciones o vacíos antes de avanzar hacia la codificación.
       .col-lg-4.col-md-6.col-8

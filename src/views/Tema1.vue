@@ -17,7 +17,7 @@
               img.izq.d-none.d-lg-block(src='@/assets/curso/temas/t1/img02.svg', alt='')
             .col-lg-6.p-4
               p El estudio de las pruebas de #[em software] debe iniciar con una comprensión profunda de su naturaleza. En algunos contextos formativos, se tiene la concepción errónea de que probar #[em software] consiste únicamente en “hacer clic en botones” para identificar si el sistema falla. Esta visión reduccionista impide dimensionar el verdadero valor de la disciplina.
-          p En esta sección se aborda la fundamentación teórica necesaria para comprender el testing como una actividad analítica, estructurada y preventiva. Esta comprensión permite reconocer que las pruebas de #[em software] no son una acción improvisada, sino un proceso técnico que aporta información sobre la calidad, funcionalidad y confiabilidad de una solución tecnológica.
+          p En esta sección se aborda la fundamentación teórica necesaria para comprender el #[em testing] como una actividad analítica, estructurada y preventiva. Esta comprensión permite reconocer que las pruebas de #[em software] no son una acción improvisada, sino un proceso técnico que aporta información sobre la calidad, funcionalidad y confiabilidad de una solución tecnológica.
 
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
         .col-sm-12.col-lg-7
@@ -84,7 +84,7 @@
       .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
         .col-lg-8
           p.bg4.p-4 De manera similar, en el desarrollo de #[em software], las pruebas son evaluaciones continuas de los “materiales”, representados en el código fuente, y de los “planos”, representados en los requisitos del cliente, para asegurar que la aplicación construida sea sólida, segura y funcional. Comprender esta esencia es el primer paso para determinar un plan de pruebas coherente y preventivo.
-          p El aseguramiento de la calidad, conocido como QA por sus siglas en inglés, y las pruebas de #[em software], aunque están estrechamente relacionados, cumplen propósitos distintos. Mientras que el QA se enfoca en prevenir defectos mediante la mejora de los procesos de desarrollo, el testing se centra en detectar los defectos en el producto construido.
+          p El aseguramiento de la calidad, conocido como #[em QA] por sus siglas en inglés, y las pruebas de #[em software], aunque están estrechamente relacionados, cumplen propósitos distintos. Mientras que el QA se enfoca en prevenir defectos mediante la mejora de los procesos de desarrollo, el #[em testing] se centra en detectar los defectos en el producto construido.
         .col-lg-4.col-10.col-md-8
           img(src='@/assets/curso/temas/t1/img06.png', alt='')
 
@@ -93,7 +93,7 @@
       ul.lista-ul--color(data-aos="zoom-in-left")
         li.d-flex
           i.fas.fa-code
-          p.mb-1  #[b Encontrar defectos o bugs:] identificar errores, inconsistencias y vulnerabilidades antes de que el #[em software] sea entregado al usuario final.
+          p.mb-1  #[b Encontrar defectos o #[em bugs]:] identificar errores, inconsistencias y vulnerabilidades antes de que el #[em software] sea entregado al usuario final.
         li.d-flex
           i.fas.fa-code
           p.mb-1  #[b Ganar confianza:] demostrar que el #[em software] cumple con sus especificaciones y que es seguro utilizarlo en un entorno de producción.
@@ -159,7 +159,7 @@
         .col-lg-12
           img(src='@/assets/curso/temas/t1/img08.png' alt='')
 
-      p Existen principios internacionalmente reconocidos, promovidos por entidades como el International #[em Software] Testing Qualifications Board (ISTQB), que todo profesional en formación debe interiorizar. Estos principios actúan como guías heurísticas que orientan el diseño y la ejecución de las pruebas, permitiendo comprender que el #[em software] testing no se limita a encontrar errores, sino que exige análisis, priorización, actualización permanente y comprensión del contexto en el que opera cada sistema.
+      p Existen principios internacionalmente reconocidos, promovidos por entidades como el International #[em Software] Testing Qualifications Board (ISTQB), que todo profesional en formación debe interiorizar. Estos principios actúan como guías heurísticas que orientan el diseño y la ejecución de las pruebas, permitiendo comprender que el #[em software testing] no se limita a encontrar errores, sino que exige análisis, priorización, actualización permanente y comprensión del contexto en el que opera cada sistema.
 
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
         .col-sm-12.col-lg-7

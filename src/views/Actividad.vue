@@ -22,7 +22,7 @@ export default {
       tema: 'Fundamentos del plan de pruebas de <i>software.</i>',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Verificar la comprensión de los fundamentos de las pruebas de software, sus niveles, tipos, principios, estándares técnicos y elementos necesarios para estructurar un plan de pruebas.',
+        '<b> Objetivo:</b> Verificar la comprensión de los fundamentos de las pruebas de <i>software</i>, sus niveles, tipos, principios, estándares técnicos y elementos necesarios para estructurar un plan de pruebas.',
       barajarPreguntas: false,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -244,7 +244,7 @@ export default {
         {
           id: 7,
           texto:
-            '¿Qué propone el principio de pruebas tempranas o Shift-Left Testing?',
+            '¿Qué propone el principio de pruebas tempranas o <i> Shift-Left Testing</i>?',
           imagen: '@/assets/actividad/imagen7.png',
           barajarRespuestas: true,
           opciones: [

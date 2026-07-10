@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p Las pruebas de software constituyen un proceso técnico, analítico y preventivo que permite verificar y validar la calidad de una solución tecnológica. En este componente formativo se integran los fundamentos del testing, los niveles y tipos de pruebas, los estándares de referencia y los elementos necesarios para construir un plan de pruebas. Estos aspectos permiten organizar escenarios, casos, recursos, cronogramas y criterios de evaluación, con el fin de reducir riesgos, detectar defectos y aportar a la entrega de productos de software más confiables, seguros y alineados con las necesidades del usuario y del proyecto.
+    p Las pruebas de software constituyen un proceso técnico, analítico y preventivo que permite verificar y validar la calidad de una solución tecnológica. En este componente formativo se integran los fundamentos del testing, los niveles y tipos de pruebas, los estándares de referencia y los elementos necesarios para construir un plan de pruebas. Estos aspectos permiten organizar escenarios, casos, recursos, cronogramas y criterios de evaluación, con el fin de reducir riesgos, detectar defectos y aportar a la entrega de productos de #[em software] más confiables, seguros y alineados con las necesidades del usuario y del proyecto.
     
 
     .row.justify-content-center
