@@ -115,7 +115,7 @@
         .col-lg-7.mb-4.mb-md-0
           h4 Pruebas de implementación y aceptación del usuario
           p Las pruebas de aceptación son el último nivel antes de que el #[em software] sea liberado o implementado oficialmente. Su propósito principal no es buscar nuevos defectos técnicos, que debieron resolverse en niveles anteriores, sino validar que el sistema satisface las necesidades de negocio y genera confianza para su despliegue.
-          p Generalmente, estas pruebas, conocidas como #[em User Acceptance Testing], son realizadas por el cliente, los usuarios finales o representantes del negocio, con el acompañamiento del equipo técnico. Su división con frecuencia en pruebas alfa, realizadas en las instalaciones de los desarrolladores, y pruebas beta, realizadas por usuarios en sus propios entornos.
+          p Generalmente, estas pruebas, conocidas como #[em UAT] o #[em User Acceptance Testing], son realizadas por el cliente, los usuarios finales o representantes del negocio, con el acompañamiento del equipo técnico. Su división con frecuencia en pruebas alfa, realizadas en las instalaciones de los desarrolladores, y pruebas beta, realizadas por usuarios en sus propios entornos.
           p La determinación de este nivel dentro del procedimiento técnico de prueba es crucial, ya que representa la firma de conformidad que certifica que el #[em software] entregado aporta el valor esperado.
         .col-lg-5.col-md-8
           figure

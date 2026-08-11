@@ -29,13 +29,13 @@
         .col-lg-9.position-relative
           .avatar
             figure
-              img(src="@/assets/curso/temas/t1/img03.png", alt="alt").img250
+              img(src="@/assets/curso/temas/t1/img03.png", alt="").img250
           
           .crd.crd--avatarHorizontal.crd--first.py-4
             .row.align-items-center
               .col-auto
                 figure
-                  img(src="@/assets/curso/temas/t1/1.png", alt="alt").img100
+                  img(src="@/assets/curso/temas/t1/1.png", alt="").img100
               .col
                 h5 Actividad analítica
                 p Las pruebas requieren analizar requisitos, condiciones, riesgos y resultados esperados antes de ejecutar cualquier validación.
@@ -44,7 +44,7 @@
             .row.align-items-center
               .col-auto
                 figure
-                  img(src="@/assets/curso/temas/t1/2.png", alt="alt").img100
+                  img(src="@/assets/curso/temas/t1/2.png", alt="").img100
               .col
                 h5 Actividad estructurada
                 p El proceso de prueba se organiza mediante planes, escenarios, casos de prueba, criterios y evidencias.
@@ -52,7 +52,7 @@
             .row.align-items-center
               .col-auto
                 figure
-                  img(src="@/assets/curso/temas/t1/3.png", alt="alt").img100
+                  img(src="@/assets/curso/temas/t1/3.png", alt="").img100
               .col
                 h5 Actividad preventiva
                 p Las pruebas ayudan a identificar defectos de manera temprana y a reducir riesgos antes de la entrega del producto.
@@ -60,7 +60,7 @@
             .row.align-items-center
               .col-auto
                 figure
-                  img(src="@/assets/curso/temas/t1/4.png", alt="alt").img100
+                  img(src="@/assets/curso/temas/t1/4.png", alt="").img100
               .col
                 h5 Actividad de calidad
                 p El #[em testing] aporta información objetiva para valorar la confiabilidad, funcionalidad y utilidad del #[em software].
@@ -159,7 +159,7 @@
         .col-lg-12
           img(src='@/assets/curso/temas/t1/img08.png' alt='')
 
-      p Existen principios internacionalmente reconocidos, promovidos por entidades como el International #[em Software] Testing Qualifications Board (ISTQB), que todo profesional en formación debe interiorizar. Estos principios actúan como guías heurísticas que orientan el diseño y la ejecución de las pruebas, permitiendo comprender que el #[em software testing] no se limita a encontrar errores, sino que exige análisis, priorización, actualización permanente y comprensión del contexto en el que opera cada sistema.
+      p Existen principios internacionalmente reconocidos, promovidos por entidades como el International #[em Software] #[em Testing Qualifications Board] (ISTQB), que todo profesional en formación debe interiorizar. Estos principios actúan como guías heurísticas que orientan el diseño y la ejecución de las pruebas, permitiendo comprender que el #[em software testing] no se limita a encontrar errores, sino que exige análisis, priorización, actualización permanente y comprensión del contexto en el que opera cada sistema.
 
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
         .col-sm-12.col-lg-7
@@ -210,7 +210,12 @@
             img(src='@/assets/curso/temas/t1/sli7.png', alt='')
 
       p A partir de estos principios, se comprende que las pruebas de #[em software] no solo permiten detectar errores técnicos, sino que también aportan valor al desarrollo tecnológico, la seguridad de la información y la experiencia del usuario. Su impacto se refleja en la reducción de riesgos, la toma de decisiones fundamentada y la entrega de soluciones más confiables. Por esta razón, el siguiente recurso presenta algunos aportes clave de las pruebas dentro de un proyecto de #[em software].
-
+      
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-7
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/temas/t1/ico.svg")
+            h3.bg3.py-2.w-card-text.text-white Impacto de las pruebas del desarrollo tecnológico
       .row(data-aos="zoom-in-left")
         .col-md-6.col-xl.mb-4.mb-xl-0.d-flex
           .tarjeta-numerada.color-primario.p-4.h-100

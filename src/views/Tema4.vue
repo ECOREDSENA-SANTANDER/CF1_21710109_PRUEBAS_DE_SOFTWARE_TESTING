@@ -201,7 +201,7 @@
       .row.justify-content-center
         .col-lg-3.mb-3.col-md-6
           figure
-            img(src='@/assets/curso/temas/t4/pas2.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/t4/pas2.png', alt='')
         .col-lg-8.mb-4.mb-md-0
           h4.text-izq Identificar aciertos
           p.text-izq Se registran técnicas, herramientas, decisiones o prácticas que facilitaron el proceso y generaron buenos resultados.
@@ -212,13 +212,13 @@
           p Se documentan cuellos de botella, errores no detectados, fallas de comunicación o dificultades en la ejecución.
         .col-lg-3.col-md-6
           figure
-            img(src='@/assets/curso/temas/t4/pas3.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/t4/pas3.png', alt='')
 
 
       .row.justify-content-center
         .col-lg-3.mb-3.col-md-6
           figure
-            img(src='@/assets/curso/temas/t4/pas4.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/t4/pas4.png', alt='')
         .col-lg-8.mb-4.mb-md-0
           h4.text-izq Proponer mejoras
           p.text-izq Se formulan acciones concretas para optimizar futuros ciclos de prueba y fortalecer la madurez técnica del equipo.

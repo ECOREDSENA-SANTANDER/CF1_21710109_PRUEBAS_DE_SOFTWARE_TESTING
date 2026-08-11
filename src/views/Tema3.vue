@@ -83,7 +83,7 @@
       .row.justify-content-center
         .col-lg-3.mb-3.col-md-6
           figure
-            img(src='@/assets/curso/temas/t3/pas2.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/t3/pas2.png', alt='')
         .col-lg-8.mb-4.mb-md-0
           h4.text-izq Seguridad
           p.text-izq Verifica que los datos confidenciales, como notas, información personal o certificados, estén protegidos contra accesos no autorizados.
@@ -94,13 +94,13 @@
           p Analiza la facilidad con la que las personas interactúan con la interfaz del #[em software], incluyendo usuarios con discapacidad visual, auditiva, cognitiva o motora.
         .col-lg-3.mb-3.col-md-6
           figure
-            img(src='@/assets/curso/temas/t3/pas3.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/t3/pas3.png', alt='')
 
 
       .row.justify-content-center
         .col-lg-3.mb-3.col-md-6
           figure
-            img(src='@/assets/curso/temas/t3/pas4.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/t3/pas4.png', alt='')
         .col-lg-8.mb-4.mb-md-0
           h4.text-izq Accesibilidad
           p.text-izq Permite revisar si el sistema puede ser utilizado por la mayor cantidad posible de personas, considerando lectura con tecnologías de apoyo, navegación por teclado, contraste suficiente, textos alternativos y claridad en los mensajes.
@@ -137,13 +137,13 @@
         .col-lg-9.position-relative
           .avatar
             figure
-              img(src="@/assets/curso/temas/t3/img09.png", alt="alt").img250
+              img(src="@/assets/curso/temas/t3/img09.png", alt="").img250
           
           .crd.crd--avatarHorizontal.crd--first.py-4
             .row.align-items-center
               .col-auto
                 figure
-                  img(src="@/assets/curso/temas/t3/1.png", alt="alt").img100
+                  img(src="@/assets/curso/temas/t3/1.png", alt="").img100
               .col
                 h5 Pruebas dinámicas
                 p Requieren ejecutar el código fuente. El #[em software] debe estar compilado y en funcionamiento para evaluar su comportamiento.
@@ -152,7 +152,7 @@
             .row.align-items-center
               .col-auto
                 figure
-                  img(src="@/assets/curso/temas/t3/2.png", alt="alt").img100
+                  img(src="@/assets/curso/temas/t3/2.png", alt="").img100
               .col
                 h5 Pruebas estáticas
                 p No requieren ejecutar el código. Se centran en revisar documentación, modelos, diseños o código fuente para identificar anomalías tempranas.
@@ -160,7 +160,7 @@
             .row.align-items-center
               .col-auto
                 figure
-                  img(src="@/assets/curso/temas/t3/3.png", alt="alt").img100
+                  img(src="@/assets/curso/temas/t3/3.png", alt="").img100
               .col
                 h5 Revisiones técnicas
                 p Son espacios estructurados donde el equipo examina documentos del proyecto, como requisitos, prototipos o diseños de base de datos.
@@ -168,7 +168,7 @@
             .row.align-items-center
               .col-auto
                 figure
-                  img(src="@/assets/curso/temas/t3/4.png", alt="alt").img100
+                  img(src="@/assets/curso/temas/t3/4.png", alt="").img100
               .col
                 h5 Valor preventivo
                 p Permiten detectar errores antes de la programación o ejecución del sistema, reduciendo reprocesos y costos.
