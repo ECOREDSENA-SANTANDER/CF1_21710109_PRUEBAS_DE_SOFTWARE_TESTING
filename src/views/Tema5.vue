@@ -36,23 +36,18 @@
 
     .row.justify-content-center.mb-4
       .col-lg-12
-        img.w-100(
-          src='@/assets/curso/temas/t5/podcast.png'
-          alt=''
-          data-aos="zoom-in-left"
-        )
-
+        img.w-100(src='@/assets/curso/temas/t5/podcast.png' alt='' data-aos="zoom-in-left")
       .col-lg-12
         .tarjeta.clr--pink.p-4.rounded-0.h-100.color-secundario
           .tarjeta.bg-white.p-4
             TarjetaAudio.color-acento-botones(
               texto="Plan de pruebas: la ruta para entregar software confiable"
-              :audio="require_src('@/assets/curso/temas/t3/podcast.mp3')"
+              :audio="require_src('@/assets/curso/temas/t5/podcast.mp3')"
             )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
             p.mt-3
               | Antes de continuar con la definición del alcance y el enfoque del plan de pruebas, acceda al pódcast Plan de pruebas: la ruta para entregar #[em software] confiable. Este recurso permite comprender, mediante una conversación sencilla, por qué el plan de pruebas no debe asumirse como un formato, sino como una estrategia técnica para organizar la evaluación del #[em software], anticipar riesgos y tomar decisiones durante el aseguramiento de la calidad.
-
+    
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-5.mb-3.col-10
         img(src='@/assets/curso/temas/t5/img05.png', alt='')

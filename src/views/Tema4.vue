@@ -223,9 +223,6 @@
           h4.text-izq Proponer mejoras
           p.text-izq Se formulan acciones concretas para optimizar futuros ciclos de prueba y fortalecer la madurez técnica del equipo.
 
-    
-
-
 
 
 
